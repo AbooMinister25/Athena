@@ -5,11 +5,12 @@ description = ""
 authors = [
     {name = "AbooMinister25", email = "aboominister@gmail.com"},
 ]
-dependencies = []
+dependencies = [
+    "fastapi>=0.97.0",
+    "uvicorn>=0.22.0",
+]
 requires-python = ">=3.7"
 license = {text = "MIT"}
-[project.optional-dependencies]
-
 [build-system]
 requires = ["pdm-pep517>=1.0.0"]
 build-backend = "pdm.pep517.api"

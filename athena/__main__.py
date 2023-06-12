@@ -2,4 +2,11 @@
 
 from __future__ import annotations
 
-print("Hello World")
+from fastapi import FastAPI
+
+app = FastAPI()
+
+
+@app.get("/")
+async def root() -> str:
+    return "Hello World"
