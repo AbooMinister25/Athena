@@ -1,0 +1,36 @@
+Arguments: 
+  /home/rcyclegar/.nvm/versions/node/v18.7.0/bin/node /home/rcyclegar/.nvm/versions/node/v18.7.0/bin/yarn add svelte-preeprocess sass -D
+
+PATH: 
+  /home/rcyclegar/projects/Athena/.venv/bin:/home/rcyclegar/.cabal/bin:/home/rcyclegar/.ghcup/bin:/home/rcyclegar/.nvm/versions/node/v18.7.0/bin:/home/rcyclegar/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/home/rcyclegar/.cache/coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_linux_hotspot_8u292b10.tar.gz/jdk8u292-b10/bin:/home/rcyclegar/.local/share/coursier/bin:/home/rcyclegar/.local/share/JetBrains/Toolbox/scripts:/usr/local/sbin:/usr/sbin:/home/rcyclegar/.local/bin:/home/rcyclegar/.cache/coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_linux_hotspot_8u292b10.tar.gz/jdk8u292-b10/bin:/home/rcyclegar/.local/share/coursier/bin:/home/rcyclegar/.local/share/JetBrains/Toolbox/scripts:/home/rcyclegar/.local/bin:/home/rcyclegar/.cache/coursier/arc/https/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u292-b10/OpenJDK8U-jdk_x64_linux_hotspot_8u292b10.tar.gz/jdk8u292-b10/bin:/home/rcyclegar/.local/share/coursier/bin:/home/rcyclegar/.local/share/JetBrains/Toolbox/scripts:/home/rcyclegar/.local/bin:/home/rcyclegar/.local/share/llvmenv/12.0.1/bin:/home/rcyclegar/.local/bin:/home/rcyclegar/.local/share/llvmenv/12.0.1/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.7.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/svelte-preeprocess: Not found
+      at params.callback [as _callback] (/home/rcyclegar/.nvm/versions/node/v18.7.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/home/rcyclegar/.nvm/versions/node/v18.7.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/home/rcyclegar/.nvm/versions/node/v18.7.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/home/rcyclegar/.nvm/versions/node/v18.7.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
