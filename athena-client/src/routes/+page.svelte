@@ -37,5 +37,10 @@
     </div>
 </div>
 
-<style></style>
-<script></script>
+<style lang="scss">
+	@import 'node_modules/nord/src/sass/nord.scss';
+
+	h1 {
+		color: $nord11;
+	}
+</style>
