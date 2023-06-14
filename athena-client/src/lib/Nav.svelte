@@ -30,12 +30,16 @@
 	}
 
 	.nav-link {
-		margin: auto 1rem;
+		margin: auto;
 		text-decoration: none;
 		color: $nord0;
 
 		&:hover {
 			text-decoration: underline 2px $nord8;
+		}
+
+		@media (min-width: 448px) {
+			margin: auto 1rem;
 		}
 	}
 
