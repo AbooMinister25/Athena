@@ -1,4 +1,5 @@
 <script lang="ts">
+	import '../app.scss';
 	import Nav from '$lib/Nav.svelte';
 </script>
 
@@ -6,7 +7,7 @@
 <slot />
 
 <style lang="scss">
-	@import '../../static/styles/fonts.scss';
+	@import './src/lib/scss/fonts';
 
 	:global(body) {
 		font-family: $sans-serif;

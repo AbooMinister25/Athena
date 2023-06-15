@@ -13,5 +13,13 @@ export default defineConfig({
 		// 		sourceMap: !production
 		// 	})
 		// })
-	]
+	],
+
+	css: {
+		preprocessorOptions: {
+			scss: {
+				additionalData: '@use "src/variables.scss" as *;'
+			}
+		}
+	}
 });

@@ -1,0 +1,13 @@
+@import 'node_modules/nord/src/sass/nord.scss';
+
+/* Variables and mixins declared here will be available in all other SCSS files */ /* https://github.com/jgthms/bulma/issues/1293 */
+$body-overflow-y: auto;
+
+$primary: $nord8;
+$link: $nord9;
+$info: $nord7;
+$success: $nord14;
+$warning: $nord13;
+$danger: $nord11;
+$dark: $nord1;
+$text: $nord0;

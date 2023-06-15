@@ -2,9 +2,16 @@
 	<title>Home</title>
 </svelte:head>
 
-<h1 class="title">A modern platform to explore the limitless world of numbers</h1>
+<!-- <h1 class="title">A modern platform to explore the limitless world of numbers</h1> -->
 
-<style lang="scss">
+<section class="hero">
+	<div class="hero-body">
+		<p class="title">A modern platform to explore the limitless world of numbers</p>
+		<p class="subtitle">More info Here</p>
+	</div>
+</section>
+
+<!-- <style lang="scss">
 	@import 'node_modules/nord/src/sass/nord.scss';
 	.title {
 		color: $nord2;
@@ -20,4 +27,4 @@
 			width: 50%;
 		}
 	}
-</style>
+</style> -->
