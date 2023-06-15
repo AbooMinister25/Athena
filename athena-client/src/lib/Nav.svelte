@@ -71,6 +71,7 @@
 		border: none;
 		font: inherit;
 		cursor: pointer;
+		background-color: inherit;
 
 		&:hover {
 			background-color: inherit;
