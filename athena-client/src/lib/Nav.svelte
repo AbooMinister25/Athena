@@ -2,7 +2,7 @@
 	<a class="nav-link" href="/">
 		<img src="/icons/favicon.ico" />
 	</a>
-	<a class="nav-link" href="/src/routes/signup/+page.svelte">Get Started</a>
+	<a class="nav-link" href="/about">Get Started</a>
 	<a class="nav-link" href="/">About Us</a>
 	<div class="dropdown nav-link-right">
 		<button class="dropdown-btn">More</button>
