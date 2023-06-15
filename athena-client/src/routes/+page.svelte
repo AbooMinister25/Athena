@@ -1,46 +1,30 @@
-<title>Athena</title>
-<h1 style = "text-align: center;">Athena</h1>
-<div class="navbar">
-    <a href="+page.svelte">Home</a>
-    <a href="">About Us</a>
-    <div class="dropdown">
-        <button class="dropbtn">Addition</button>
-        <div class="dropdown-content">
-            <a href="#">Single Digit</a>
-            <a href="#">Double Digit</a>
-            <a href="#">Triple Digit</a>
-        </div>
-    </div>
-    <div class="dropdown">
-        <button class="dropbtn">Subtraction</button>
-        <div class="dropdown-content">
-            <a href="#">Single Digit</a>
-            <a href="#">Double Digit</a>
-            <a href="#">Triple Digit</a>
-        </div>
-    </div>
-    <div class="dropdown">
-        <button class="dropbtn">Multiplication</button>
-        <div class="dropdown-content">
-            <a href="#">Single Digit</a>
-            <a href="#">Double Digit</a>
-            <a href="#">Triple Digit</a>
-        </div>
-    </div>
-    <div class="dropdown">
-        <button class="dropbtn">Division</button>
-        <div class="dropdown-content">
-            <a href="#">Single Digit</a>
-            <a href="#">Double Digit</a>
-            <a href="#">Triple Digit</a>
-        </div>
-    </div>
-</div>
+<svelte:head>
+	<title>Home</title>
+</svelte:head>
 
-<style lang="scss">
+<!-- <h1 class="title">A modern platform to explore the limitless world of numbers</h1> -->
+
+<section class="hero">
+	<div class="hero-body">
+		<p class="title">A modern platform to explore the limitless world of numbers</p>
+		<p class="subtitle">More info Here</p>
+	</div>
+</section>
+
+<!-- <style lang="scss">
 	@import 'node_modules/nord/src/sass/nord.scss';
+	.title {
+		color: $nord2;
+		width: 90%;
+		margin: 3rem auto;
+        font-size: 3rem;
 
-	h1 {
-		color: $nord11;
+		@media (min-width: 441px) {
+			width: 75%;
+		}
+
+        @media (min-width: 801px) {
+			width: 50%;
+		}
 	}
-</style>
+</style> -->
